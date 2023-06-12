@@ -126,6 +126,10 @@ tram=$( free -h | awk 'NR==2 {print $2}' )
 uram=$( free -h | awk 'NR==2 {print $3}' )
 ISP=$(curl -s ipinfo.io/org | cut -d " " -f 2-10 )
 CITY=$(curl -s ipinfo.io/city )
+# Getting CPU Information
+cpu_usage1="$(ps aux | awk 'BEGIN {sum=0} {sum+=$3}; END {print sum}')"
+cpu_usage="$((${cpu_usage1/\.*} / ${corediilik:-1}))"
+cpu_usage+=" %"
 
 # // Export Banner Status Information
 export EROR="[${RED} EROR ${NC}]"
@@ -260,6 +264,7 @@ echo -e "${BIYellow}□ Current Domain      = ${GREEN}$( cat /etc/xray/domain )$
 echo -e "${BIYellow}□ NS Domain           = ${GREEN}$(cat /root/nsdomain)${NC}"
 echo -e "${BIYellow}□ Jumlah Ram          = ${GREEN}${totalram}MB"
 echo -e "${BIYellow}□ Server Resource     = $uram / $tram"
+echo -e "${BIYellow}□ CPU Usage           = $cpu_usage"
 echo -e "${BIYellow}□ Clients Name        = ${GREEN}$Name${NC}"
 echo -e "${BIYellow}□ Expired Script VPS  = ${GREEN}$Exp${NC}"
 echo -e "${BIYellow}□ Time Reboot VPS     = 00:00 ${GREEN}( Jam 12 Malam )${NC}"
