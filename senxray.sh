@@ -2,31 +2,23 @@
 # // config Data
 echo -e "${GREEN}Config Data${NC}"
 
-
 wget -q -O /usr/bin/add-ws "https://raw.githubusercontent.com/kanghory/VPN/main/add-ws.sh"
 wget -q -O /usr/bin/add-ssws "https://raw.githubusercontent.com/kanghory/VPN/main/add-ssws.sh"
-#wget -q -O /usr/bin/add-socks "https://raw.githubusercontent.com/Agunxzzz/XrayCol/main/minacantik/add-socks.sh"
 wget -q -O /usr/bin/add-vless "https://raw.githubusercontent.com/kanghory/VPN/main/add-vless.sh"
 wget -q -O /usr/bin/add-tr "https://raw.githubusercontent.com/kanghory/VPN/main/add-tr.sh"
 wget -q -O /usr/bin/add-trgo "https://raw.githubusercontent.com/kanghory/VPN/main/add-trgo.sh"
-
-
-
 wget -q -O /usr/bin/menu-vless "https://raw.githubusercontent.com/kanghory/VPN/main/menu-vless.sh"
 wget -q -O /usr/bin/menu-vmess "https://raw.githubusercontent.com/kanghory/VPN/main/menu-vmess.sh"
-
 wget -q -O /usr/bin/menu-ss "https://raw.githubusercontent.com/kanghory/VPN/main/menu-ss.sh"
 wget -q -O /usr/bin/menu-trojan "https://raw.githubusercontent.com/kanghory/VPN/main/menu-trojan.sh"
-
-
 wget -q -O /usr/bin/updatsc "https://raw.githubusercontent.com/kanghory/VPN/main/update.sh"
 wget -q -O /usr/bin/backup "https://raw.githubusercontent.com/kanghory/VPN/main/backup.sh"
 wget -q -O /usr/bin/renel "https://raw.githubusercontent.com/kanghory/VPN/main/renel.sh"
 wget -q -O /usr/bin/cekl "https://raw.githubusercontent.com/kanghory/VPN/main/cekl.sh"
 wget -q -O /usr/bin/dell "https://raw.githubusercontent.com/kanghory/VPN/main/dell.sh"
 
-chmod +x /usr/bin/menu-backup
-#chmod +x /usr/bin/menu
+
+
 chmod +x /usr/bin/add-ws
 chmod +x /usr/bin/add-ssws
 #chmod +x /usr/bin/add-socks
@@ -65,6 +57,14 @@ chmod +x /usr/bin/xp
 chmod +x /usr/bin/changer
 chmod +x /usr/bin/fix
 #chmod +x /usr/bin/update
+
+
+
+
+
+
+
+
 
 
 
