@@ -1,12 +1,8 @@
-# SC MULTI VER 4 TERAKHIR
+# SC MULTI Vpn-3
 # update sc
-wget https://raw.githubusercontent.com/Andyyuda/ver3/main/update/install_up.sh && chmod +x install_up.sh && ./install_up.sh
+wget https://raw.githubusercontent.com/kanghory/VPN-3/main/update/install_up.sh && chmod +x install_up.sh && ./install_up.sh
 
-
-
-
-wget https://raw.githubusercontent.com/Andyyuda/ver3/main/up.sh && chmod +x up.sh && ./up.sh
-
+wget https://raw.githubusercontent.com/kanghory/VPN-3/main/up.sh && chmod +x up.sh && ./up.sh
 
 # SC By KANG HORY VPN versi Pertama Fix (SANTRI JOWO)
 ![logo](https://raw.githubusercontent.com/kanghory/VPN/main/SS1.png)
@@ -52,6 +48,4 @@ wa.me/+6285225171738
 ## Order script: wa.me/+6285225171738
 ##  t.me/kanghory<br> 
 ## Testimoni     t.me/kanghoryvpnpremium<br>
-            
-              
-
+          
