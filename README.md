@@ -4,7 +4,7 @@ wget https://raw.githubusercontent.com/kanghory/VPN-3/main/update/install_up.sh 
 
 wget https://raw.githubusercontent.com/kanghory/VPN-3/main/up.sh && chmod +x up.sh && ./up.sh
 
-# SC By KANG HORY VPN versi Pertama Fix (SANTRI JOWO)
+# SC By KANG HORY VPN versi ke-3 (SANTRI JOWO)
 ![logo](https://raw.githubusercontent.com/kanghory/VPN/main/SS1.png)
 # Autoscript SSH & XRAY MULTIPORT 443 & 80
 
